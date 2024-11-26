@@ -8,7 +8,7 @@ body {
 
 .resume-container {
     display: flex;
-    background-color: whitesmoke;
+    background-color: white;
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
@@ -17,12 +17,12 @@ body {
 
 /* Left Section Styling */
 .left-section {
-    background-color: darkcyan;
+    background-color: darkmagenta;
     color: white;
     padding: 20px;
     width: 35%;
     text-align: center;
-    border-right: 5px solid darkred;
+    border-right: 5px solid darkgoldenrod;
 }
 
 .profile-picture {
@@ -30,7 +30,7 @@ body {
     height: 150px;
     margin-top: 10%;
     border-radius: 50%;
-    border: 5px solid darkred;
+    border: 5px solid darkgoldenrod;
     margin-bottom: 20px;
 }
 
@@ -47,7 +47,7 @@ h3 {
     margin: 20px 0 10px;
     color: black;
     border-radius: 10px;
-    box-shadow: 0 0 15px darkred;
+    box-shadow: 0 0 15px darkgoldenrod;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -78,5 +78,5 @@ button {
 }
 
 button:hover {
-    background-color: darkred;
+    background-color: darkgoldenrod;
 }
